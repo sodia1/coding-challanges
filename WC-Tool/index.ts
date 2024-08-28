@@ -1,7 +1,7 @@
-import {wc } from './wc';
+import { myWC } from './wc';
 
 const main = async () => {
-    const result = await wc(process.argv, process.stdin)
+    const result = await myWC(process.argv, process.stdin)
 }
 
 main();
