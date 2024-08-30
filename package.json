@@ -2,5 +2,9 @@
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^22.5.0"
-  }
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module"
 }

@@ -1,6 +1,6 @@
 import { execSync } from 'child_process';
 import fs from 'fs';
-import { myWC } from '../wc';
+import { myWC } from '../src/wc';
 import path from 'path';
 
 const filePaths = [
